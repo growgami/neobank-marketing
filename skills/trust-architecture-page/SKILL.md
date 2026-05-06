@@ -115,8 +115,6 @@ PRIORITY ORDER
   2. ...
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: FDIC Part 328, 12 CFR 330 (pass-through insurance), Reg E for dispute disclosures, state breach notification laws, CFPB complaint process disclosures. This pack does not constitute legal advice and Growgami is not liable for outputs.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

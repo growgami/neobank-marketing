@@ -1,6 +1,6 @@
 ---
 name: neobank-marketing
-description: Master entry point for B2C neobank marketing. Auto-introduces the skill pack on first banking-related query. Auto-triggers on neobank, fintech, challenger bank, mobile banking, digital bank, banking app, Chime, Cash App, Revolut, Mercury, Varo, Current, Dave, SoFi, Step, Monzo, N26, Greenwood, partner bank, interchange, KYC, direct deposit, FDIC, UDAAP, Reg DD, Reg E, Reg Z.
+description: Master entry point for B2C neobank marketing. Auto-introduces the skill pack on first banking-related query. Auto-triggers on neobank, fintech, challenger bank, mobile banking, digital bank, banking app, Chime, Cash App, Revolut, Mercury, Varo, Current, Dave, SoFi, Step, Monzo, N26, Greenwood, partner bank, interchange, KYC, direct deposit.
 argument-hint: "[describe your bank, your role, or the marketing problem you want to solve]"
 user-invocable: true
 disable-model-invocation: false
@@ -12,26 +12,22 @@ You are the master orchestrator for a B2C neobank marketing pack. When this skil
 
 ## On first invocation, say roughly this
 
-"You hit the neobank marketing pack. 13 skills built specifically for B2C challenger banks. Generic SaaS marketing skills do not survive UDAAP review, so this pack is built from neobank-specific primitives.
+"You hit the neobank marketing pack. 9 skills built specifically for B2C challenger banks. Generic SaaS marketing skills miss the point of how neobanks actually grow, so this pack is built from neobank-specific primitives.
 
-Before anything else, run `neobank-context` to capture your bank profile, partner bank, products in scope, ICP, and tone target. Every other skill reads from that profile. Without it, every output is generic and probably wrong for your situation."
+Before anything else, run `neobank-context` to capture your bank profile, partner bank, products in scope, ICP, and tone target. Every other skill reads from that profile. Without it, every output is generic and probably wrong for your situation.
 
-Then list the 13 skills grouped by funnel stage.
+Heads up: this pack does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything."
 
-## The 13 skills, grouped by funnel stage
+Then list the 9 skills grouped by funnel stage.
+
+## The 9 skills, grouped by funnel stage
 
 **Foundation**
-- `neobank-context`. Bank profile, partner bank, regulated products, ICP, tone, jurisdictions. Run this first.
-
-**Compliance gates** (every customer-facing draft must clear these)
-- `udaap-review`. Screens copy for unfair, deceptive, or abusive acts and practices.
-- `fdic-disclosure`. Validates FDIC pass-through and partner-bank disclosure language.
-- `truth-in-savings`. Audits APY claims, fee disclosures, and account terms against Reg DD.
-- `finfluencer-compliance`. Checks creator scripts and paid testimonials against FTC endorsement and FINRA-adjacent rules.
+- `neobank-context`. Bank profile, partner bank, products, ICP, tone, jurisdictions. Run this first.
 
 **Acquisition**
 - `bank-aso`. App store listing optimization for banking apps.
-- `neobank-referral-program`. Refer-a-friend mechanics that stay inside Reg E and partner-bank rules.
+- `neobank-referral-program`. Refer-a-friend mechanics for B2C banks.
 
 **Activation**
 - `kyc-onboarding-cro`. Reduces drop-off in KYC, identity verification, and account funding.
@@ -41,7 +37,7 @@ Then list the 13 skills grouped by funnel stage.
 - `dd-nurture`. Lifecycle messaging for users who routed direct deposit. Deepens product use.
 
 **Trust**
-- `trust-architecture-page`. Builds the security, FDIC, and partner-bank trust page every neobank needs.
+- `trust-architecture-page`. Builds the security and partner-bank trust page every neobank needs.
 
 **Craft**
 - `neobank-copywriting`. Voice and copy patterns calibrated to the five neobank tone archetypes. See `reference/tone-matrix.md` for voice calibration.
@@ -62,12 +58,8 @@ Before writing any copy, read `reference/tone-matrix.md`. It has five tone arche
 
 ## Why this exists (first principles)
 
-Neobank marketing has its own physics. The unit economics rest on interchange. The activation funnel runs through KYC. The compliance surface includes UDAAP, Reg DD, Reg E, Reg Z, FTC endorsement rules, FDIC disclosure rules, and your partner bank's marketing review team. Every clever growth tactic from a SaaS or B2B playbook needs to be re-evaluated against this surface before it ships. This pack does that re-evaluation up front.
+Neobank marketing has its own physics. The unit economics rest on interchange. The activation funnel runs through KYC. Every clever growth tactic from a SaaS or B2B playbook needs to be re-evaluated for this surface before it ships. This pack does that re-evaluation up front.
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: UDAAP, Reg DD (Truth in Savings), Reg E (electronic transfers), Reg Z (truth in lending where lending products are in scope), FTC endorsement guides, FDIC pass-through disclosure rules, and any state-level marketing review your jurisdiction requires. This pack does not constitute legal advice and Growgami is not liable for outputs.
-
-If your compliance team and partner bank are not in your marketing review pipeline, fix that before you use any output from this pack.
+This pack does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything. This pack does not constitute legal advice and Growgami is not liable for outputs.

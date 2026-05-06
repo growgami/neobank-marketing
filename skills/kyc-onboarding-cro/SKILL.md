@@ -155,8 +155,6 @@ EXPECTED LIFT
   Implied CAC reduction: $X per acquired customer.
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: BSA (31 USC 5311 et seq.), CIP rule (31 CFR 1020.220), OFAC sanctions screening requirements, ECOA (15 USC 1691) and note that KYC variance must not correlate with protected class, FCRA (15 USC 1681) if any third-party data check is involved. This pack does not constitute legal advice and Growgami is not liable for outputs.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

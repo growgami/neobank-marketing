@@ -167,8 +167,6 @@ REGULATOR SCREENSHOT TEST
   Lines to rewrite: [...]
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: CFPB UDAAP (12 USC 5531 and 5536), FTC Section 5, Reg DD if any rate is shown, Reg Z if any credit product is shown. This pack does not constitute legal advice and Growgami is not liable for outputs.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

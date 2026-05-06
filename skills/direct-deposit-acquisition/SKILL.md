@@ -136,15 +136,6 @@ Success metrics:
 Compliance review owner:
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces marketing copy and acquisition mechanics. It does not produce legally sufficient disclosures. Every output of this skill must be reviewed by qualified counsel and the compliance team before going live.
-
-Regulations that apply:
-- Reg E (12 CFR 1005): electronic fund transfers, including DD setup, error resolution, and unauthorized transfer rules
-- Reg DD (12 CFR 1030): Truth in Savings, any APY or fee claim tied to a DD condition
-- CFPB UDAAP: unfair, deceptive, or abusive acts or practices, particularly around any "instant" or speed-of-funds claim. The CFPB's $3M+ enforcement actions against Chime and Sendwave for deceptive speed claims set the precedent. "2 days early" must reflect the actual mechanic and disclose the conditional language above.
-
-Do not ship copy without sign-off from counsel, compliance, and the bank partner if applicable.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

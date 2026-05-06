@@ -121,17 +121,6 @@ Compliance review owner:
 
 See `sequence-templates.md` for the full 30-day sequence with copy.
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces lifecycle marketing copy and trigger logic. It does not produce legally sufficient disclosures. Every output of this skill must be reviewed by qualified counsel and the compliance team before going live.
-
-Regulations that apply:
-- TCPA (47 USC 227 + 47 CFR 64.1200): SMS and push that carry marketing content require prior express consent. Transactional vs marketing classification matters. Opt-out must be honored within 10 business days.
-- CAN-SPAM (15 USC 7701): every marketing email needs accurate from/subject lines, physical mailing address, and a working unsubscribe link honored within 10 business days.
-- Reg E (12 CFR 1005): any transactional content (DD credits, transfer notifications, dispute language) must comply with electronic fund transfer rules, including error resolution and unauthorized transfer notices.
-- CFPB UDAAP: any retention, "save more," "earn more," or speed-of-funds claim. Win-back bonuses must follow the same disclosure rules as acquisition bonuses.
-- State PII / privacy laws: CCPA/CPRA, Virginia CDPA, Colorado CPA all apply to lifecycle data use. Honor opt-out of sale/share where relevant.
-
-Do not ship copy or triggers without sign-off from counsel, compliance, and the bank partner if applicable.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

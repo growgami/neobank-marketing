@@ -184,18 +184,6 @@ Priority fix list:
 Compliance review owner:
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces ASO copy and listing recommendations. It does not produce legally sufficient disclosures. Every output of this skill must be reviewed by qualified counsel and the compliance team before going live.
-
-Regulations and policies that apply:
-- Apple App Store Review Guidelines, financial-app section: claim substantiation, partner bank disclosure, screenshot accuracy
-- Google Play Developer Program Policies, financial services category: Designated Countries, personal loans and banking sub-policies
-- CFPB UDAAP: any benefit, speed, or APY claim in screenshots, description, or In-App Events
-- Reg DD (12 CFR 1030): any APY shown anywhere on the listing requires Truth in Savings compliance
-- Reg E (12 CFR 1005): error resolution and unauthorized transfer language for any DD or transfer claim
-- FTC endorsement guides: if listing surfaces user reviews/quotes from compensated reviewers
-
-Do not ship without sign-off from counsel, compliance, and the bank partner if applicable.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

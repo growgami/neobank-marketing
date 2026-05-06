@@ -158,16 +158,6 @@ Success metrics:
 Compliance review owner:
 ```
 
-## Compliance and human review
+## Disclaimer
 
-These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
-
-This skill produces marketing copy and program mechanics. It does not produce legally sufficient disclosures. Every output of this skill must be reviewed by qualified counsel and the compliance team before going live.
-
-Regulations that apply:
-- FTC Endorsement Guides (16 CFR Part 255): material connection disclosure on every referral share, every social post, every embedded share surface. Updated 2023, applies to non-celebrity endorsers.
-- CFPB UDAAP: any deceptive framing of the bonus, qualifying action, or payout timing
-- State lottery and sweepstakes laws: if any element of the program resembles a sweepstakes (random selection, prize structure, bonus tiers tied to chance), state-level registration may be required. Avoid randomized bonus mechanics.
-- Bank Secrecy Act / KYC: referee must clear KYC before bonus pays out
-
-Do not ship without sign-off from counsel, compliance, and the bank partner if applicable.
+This skill does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.

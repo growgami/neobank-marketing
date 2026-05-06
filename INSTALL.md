@@ -1,6 +1,6 @@
 # Install
 
-> **Before you install:** these skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only. Every draft must be routed through your compliance counsel and partner bank's marketing review team before publishing. See the README for the full disclaimer.
+> **Before you install:** this pack does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything.
 
 Three ways to install the neobank marketing skill pack. Pick the one that matches how you work.
 
