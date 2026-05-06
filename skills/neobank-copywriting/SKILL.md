@@ -1,6 +1,6 @@
 ---
 name: neobank-copywriting
-description: Copy primitive for every consumer-facing word a B2C neobank ships. Auto-triggers when drafting or revising hero, subhead, benefit row, CTA, push notification, email, or app store copy. Enforces calibrated specificity within disclosure and the regulator screenshot test.
+description: Copy primitive for every consumer-facing word a B2C neobank ships. Auto-triggers when drafting or revising hero, subhead, benefit row, CTA, push notification, email, or app store copy. Enforces calibrated specificity within disclosure and the strict-editor screenshot test.
 argument-hint: "[asset type, audience segment, claim list]"
 user-invocable: true
 disable-model-invocation: false
@@ -10,9 +10,9 @@ disable-model-invocation: false
 
 ## Why this exists (first principles)
 
-Generic SaaS copywriting frameworks teach "claim more, qualify less." Make it punchy, sell the dream. That advice will get a B2C neobank fined.
+Generic SaaS copywriting frameworks teach "claim more, qualify less." Make it punchy, sell the dream. That advice gets a B2C neobank stuck in marketing review and ignored by users.
 
-Neobank copywriting reverses the rule: the differentiation is **calibrated specificity within disclosure**. The best B2C neobank copy is plain, specific, and survives a regulator screenshot. Hype kills you twice. It triggers UDAAP review and it sounds like every other fintech in the App Store.
+Neobank copywriting reverses the rule: the differentiation is **calibrated specificity within disclosure**. The best B2C neobank copy is plain, specific, and survives a strict-editor screenshot. Hype kills you twice. It gets flagged by your partner bank's marketing team, and it sounds like every other fintech in the App Store.
 
 The proof is in the brands that pulled away:
 
@@ -21,7 +21,7 @@ The proof is in the brands that pulled away:
 - Mercury (B2B contrast): "Banking that gets out of your way." A negative claim, hard to attack.
 - Revolut: "One app. All things money." Functional, no quantitative exposure.
 
-Compare to the dead-on-arrival pattern: "Banking, reimagined. The future of finance, built for the modern consumer." Every fintech says this. Regulators recognize it. Customers do not remember it.
+Compare to the dead-on-arrival pattern: "Banking, reimagined. The future of finance, built for the modern consumer." Every fintech says this. Customers do not remember it. Marketing reviewers stop reading at the third cliche.
 
 ## The 6-pass copywriting workflow
 
@@ -91,8 +91,8 @@ If the disclosure is doing more work than the claim, the claim is wrong. Rewrite
 - **Benefit row**: 3-5 max. Parallel grammatical structure. One concrete fact each.
 - **CTA**: verb-led, second person. "Open an account," "Get started," "Send money." Not "Learn more about our services."
 - **Footnote**: one per claim. Date stamped. Linked source where applicable.
-- **Push notification**: under 50 characters subject, under 100 body. No FDIC claim (no room for disclosure). Drive to a screen.
-- **Email subject**: under 40 characters. No "guaranteed," no "free" without context. CAN-SPAM compliance assumed.
+- **Push notification**: under 50 characters subject, under 100 body. No FDIC claim (no room for the disclosure that has to ride with it). Drive to a screen.
+- **Email subject**: under 40 characters. No "guaranteed," no "free" without context.
 
 ## Reference good copy with attribution
 
@@ -111,22 +111,22 @@ What these share: short, specific or identity-led, no quantitative exposure in t
 ## Anti-patterns (do not write)
 
 - "Banking, reimagined." Every fintech says this. Zero signal.
-- "The future of finance." Regulators read this and see a forward-looking claim with no disclosure.
+- "The future of finance." Forward-looking, vague, every fintech says it.
 - "Built for the modern [audience]." No specific signal. Could mean anything.
-- "Unlock your financial potential." UDAAP red flag (forward-looking outcome promise) and AI slop.
+- "Unlock your financial potential." Forward-looking outcome promise. Vague, AI slop, and the kind of line a strict editor circles in red.
 - "Effortlessly manage your money." AI slop. Replace with a screenshot.
 - "Empowering [audience] to [verb]." Empty.
 - "Seamless banking experience." Both AI slop words in one line.
 - "Take control of your finances." Cliche, no specific signal.
 
-## The regulator screenshot test
+## The strict-editor screenshot test
 
-Before any line ships: imagine a CFPB examiner screenshots this line out of context and drops it into a consent order draft. What is the exposure?
+Before any line ships: imagine a strict editor screenshots this line out of context and drops it on your CMO's desk with a red circle. Does the line stand on its own?
 
-- "Get paid 2 days early": exposure is moderate, mitigated by "up to" and a clear footnote on ACH timing.
-- "Instant transfers": exposure is high. Replace with "transfers in seconds when both users are on [Brand]" or similar.
-- "FDIC insured": exposure is fatal without partner bank name. Always rewrite to "Banking services provided by [Partner Bank], Member FDIC."
-- "Better than your old bank": exposure is moderate. Comparative without a specific competitor and source. Replace.
+- "Get paid 2 days early": stands up if "up to" is preserved and the ACH-timing footnote is close by.
+- "Instant transfers": fails. Replace with "transfers in seconds when both users are on [Brand]" or similar.
+- "FDIC insured": fails without the partner bank name. Always rewrite to "Banking services provided by [Partner Bank], Member FDIC."
+- "Better than your old bank": fails. Comparative without a specific competitor and source. Replace.
 
 If the line cannot survive the test, rewrite or kill.
 

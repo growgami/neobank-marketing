@@ -63,7 +63,7 @@ Hold bonus payout pending manual review on any flag. Do not auto-deny. Borderlin
 
 ## Copy templates (referrer message)
 
-Templated only. The referrer cannot freestyle claims about yield, features, or speed of funds. That creates FTC endorsement liability and CFPB UDAAP risk for the neobank. Provide pre-filled share text with the disclosure baked in.
+Templated only. The referrer cannot freestyle claims about yield, features, or speed of funds. Freestyle claims create exposure for the neobank and won't pass partner bank marketing review. Provide pre-filled share text with the disclosure baked in.
 
 ### SMS
 > "Hey, I use [Neobank] for my paycheck and they're giving us each $[X] if you sign up and get your direct deposit set up. Here's my link: [URL]. (I get $[X] when you complete the qualifying steps.)"
@@ -83,19 +83,16 @@ Templated only. The referrer cannot freestyle claims about yield, features, or s
 ### Post-share confirmation
 > "Your link is on its way. You'll see your $[X] within 1-2 business days after your friend completes their qualifying direct deposit."
 
-## Required disclosure on every referral surface
+## Disclosure on every referral surface
 
-Non-negotiable. The FTC's 2023 update to the Endorsement Guides makes "material connection" disclosure required on any share where the sharer receives compensation, including referral bonuses. CFPB UDAAP layers on top of that.
-
-Required language pattern (must appear on every share surface, every social post, every email):
+Bake "material connection" disclosure into every pre-filled share — every social post, email, and SMS template. Standard pattern:
 
 > "I receive [$X] when you sign up and complete [qualifying action]."
 
-Why non-negotuable:
-- 16 CFR Part 255 covers all endorsements, not just paid creator deals
-- Bonus = material connection
-- Hiding it = deceptive endorsement
-- Liability sits with the brand, not the referrer
+Why this matters:
+- A referral bonus is a material connection, and the brand is on the hook for the disclosure even when a customer is the one sharing the link
+- Pre-filled disclosure gets through partner bank marketing review. Freestyle creator copy doesn't.
+- Without it, your share text is the kind of thing that gets screenshotted into an enforcement complaint
 
 Build this into the share text and lock it. Do not allow editing of the disclosure line.
 

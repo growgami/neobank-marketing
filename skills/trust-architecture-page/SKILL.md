@@ -16,7 +16,7 @@ The trust surface is a primary conversion tool. It is not a legal afterthought.
 
 Two reference moves:
 
-- **Mercury post-Synapse, mid-2024**: explicitly named Column Bank and Lead Bank as direct partners on a transparent disclosure page. Strategy, not just compliance. Customers shared screenshots of the page on Twitter as a reason to switch.
+- **Mercury post-Synapse, mid-2024**: explicitly named Column Bank and Lead Bank as direct partners on a transparent disclosure page. Strategy, not afterthought. Customers shared screenshots of the page on Twitter as a reason to switch.
 - **Monzo (UK)**: "How we make money" page has been the foundation of brand trust for years. Plain English, breaks down interchange, net interest margin, paid plans. Customers cite it when asked why they trust Monzo more than other challenger banks.
 
 Vague reassurance theater ("we take security seriously") underperforms specific disclosure ("256-bit encryption, biometric login, $250K FDIC pass-through via Lead Bank, FDIC certificate #58233"). Specificity converts. Vagueness signals you have something to hide.
@@ -28,10 +28,10 @@ Build all 7 before scaling acquisition. Full content spec per page in `page-spec
 1. **Security page** (/security): encryption, biometrics, fraud alerts, partner bank, SOC 2, 24/7 fraud line.
 2. **How we make money** (/how-we-make-money): interchange, NIM, subscription, lending. Plain English. Reference: Monzo.
 3. **Partner bank disclosure** (/banking-services): bank legal name, FDIC certificate number, pass-through explanation, multi-bank sweep if applicable. Post-Synapse the bar is explicit naming.
-4. **Fraud center** (/fraud): report flow, scam education, Reg E dispute timeline, never-do examples.
+4. **Fraud center** (/fraud): report flow, scam education, dispute timeline, never-do examples.
 5. **Status page** (status.[brand].com): real-time status + 12+ months of incident history. Reference: Monzo's public page.
-6. **Disputes and complaints** (/disputes): Reg E timeline, channels, escalation, CFPB complaint disclosure.
-7. **Audit and compliance** (/compliance): SOC 2, PCI DSS, third-party audits, state MTL list, FinCEN MSB.
+6. **Disputes and complaints** (/disputes): dispute timeline, channels, escalation, complaint channel for users.
+7. **Audit and trust signals** (/trust or /audits): SOC 2, PCI DSS, third-party audits, state MTL list, FinCEN MSB if applicable.
 
 Each page's required content list, tone notes, and references live in `page-specs.md`. Read that before drafting any page.
 
@@ -74,11 +74,11 @@ Kill on sight:
 - **Vague claims**: "We take security seriously." Replace with specific list.
 - **Missing partner bank name**: "FDIC insured" with no bank named. Fix immediately.
 - **No incident history**: status page that only shows current state. Add 12+ months of historical incidents.
-- **Chatbot-only support**: Chime took a $2.5M California DFPI consent order in 2024 in part for support failures. Real human support phone number is required. List it on the security and fraud pages.
-- **No dispute timeline**: Reg E timelines must be disclosed. Missing this is a CFPB exposure.
-- **Stale audit dates**: SOC 2 from 18 months ago without a refresh signals lapsed compliance.
+- **Chatbot-only support**: Chime took a $2.5M California DFPI consent order in 2024 in part for support failures. A real human support phone number is the standard. List it on the security and fraud pages.
+- **No dispute timeline**: a published dispute timeline is one of the first things partner bank reviewers look for.
+- **Stale audit dates**: SOC 2 from 18 months ago without a refresh reads as lapsed.
 - **Buried disclosures**: partner bank name only in the footer fine print. Move it inline.
-- **Single-paragraph "compliance" page**: signals nothing. Customers and reviewers want specifics.
+- **Single-paragraph "trust" page**: signals nothing. Customers and reviewers want specifics.
 
 ## Output format
 
@@ -95,7 +95,7 @@ PAGE INVENTORY (existing)
   Audit / compliance: [...]
 
 GAP MAP
-  Critical (compliance exposure): [...]
+  Critical (review-blocker): [...]
   High (conversion exposure): [...]
   Medium (brand exposure): [...]
 

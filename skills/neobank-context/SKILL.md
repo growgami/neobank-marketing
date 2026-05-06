@@ -1,6 +1,6 @@
 ---
 name: neobank-context
-description: Foundational profile skill for any neobank or challenger bank marketing project. Captures bank name, partner bank, regulated products in scope, ICP, tone target, jurisdictions, and key compliance flags. Run this first. Every other skill in the pack reads from the profile this skill writes. Auto-triggers on first banking-related query, when setting up a new bank project, or when a user mentions onboarding their bank to the pack.
+description: Foundational profile skill for any neobank or challenger bank marketing project. Captures bank name, partner bank, products in scope, ICP, tone target, jurisdictions, and review pipeline. Run this first. Every other skill in the pack reads from the profile this skill writes. Auto-triggers on first banking-related query, when setting up a new bank project, or when a user mentions onboarding their bank to the pack.
 argument-hint: "[bank name or short brief if you have one ready]"
 user-invocable: true
 disable-model-invocation: false
@@ -14,9 +14,9 @@ This is the first skill anyone in the pack should run. It builds the bank profil
 
 Every other output in this pack is wrong without this context.
 
-An APY claim that is safe in one product becomes a Reg DD violation in another. A tone fit for Cash App will alienate Mercury's audience. A referral mechanic that works for Chime will get blocked by SoFi's partner bank. Marketing decisions for a deposit account are not the same as for a credit-builder card, and a credit-builder card is not the same as a buy-now-pay-later product.
+An APY claim that fits one product reads wrong on another and won't match your filed disclosures. A tone fit for Cash App will alienate Mercury's audience. A referral mechanic that works for Chime will get blocked by SoFi's partner bank. Marketing decisions for a deposit account are not the same as for a credit-builder card, and a credit-builder card is not the same as a buy-now-pay-later product.
 
-Without the profile, the pack defaults to generic neobank advice, which is the least useful kind. With the profile, every skill can reason about what your bank can say, who you are saying it to, what regulator surface applies, and what voice you should use.
+Without the profile, the pack defaults to generic neobank advice, which is the least useful kind. With the profile, every skill can reason about what your bank can say, who you are saying it to, what your partner bank's marketing team will sign off on, and what voice you should use.
 
 Run this once when onboarding a new bank to the pack. Re-run it whenever a major thing changes: new partner bank, new regulated product launching, new jurisdiction, ICP pivot.
 
@@ -36,12 +36,12 @@ After the interview, write the profile to `.claude/context/neobank-profile.md` (
 6. What income range and life stage describes the core user? (Helps with claim substantiation and tone.)
 7. What is the tone target you are aiming for? Read `reference/tone-matrix.md` first, then pick one of the five archetypes or describe your own.
 8. What jurisdictions do you operate in? US-only, US plus territories, EU, UK, LATAM, APAC, multi-region.
-9. If US, do you have any state-level marketing review obligations? (NY, CA, and a few others have particularly active state regulators.)
-10. What is the FDIC pass-through status, and what is your standard partner-bank disclosure line? Paste the exact wording you currently use.
-11. Are there any open or recent regulatory issues we should know about? Consent orders, CFPB actions, partner-bank exits, ongoing enforcement letters.
+9. If US, do you have any state-level marketing review steps in your sign-off process?
+10. What is your standard partner-bank disclosure line? Paste the exact wording you currently use.
+11. Are there any sensitivities or watch-outs we should know about? Recent partner-bank changes, ongoing review items, prior incidents, areas your reviewers are extra strict on.
 12. What is the current top growth lever the team is focused on? Acquisition, KYC pass rate, first-deposit rate, direct-deposit routing, card-primary, retention, referral.
 13. What channels are in scope for marketing? App store, paid social, paid search, organic social, influencer, podcast, OOH, TV, lifecycle email, push, in-app.
-14. Who reviews and signs off on marketing? Internal compliance, partner bank marketing review, external counsel, none yet (red flag).
+14. Who reviews and signs off on marketing? Internal team, partner bank marketing review, external counsel, none yet.
 
 Add a 15th question if the user mentions they have a current campaign in flight: "What is the current campaign and what is the goal metric?"
 
@@ -61,8 +61,6 @@ Last updated: [DATE]
 
 ## Banking infrastructure
 - Partner bank(s):
-- Charter type: [national bank, state-chartered, etc.]
-- FDIC pass-through status:
 - Standard disclosure line:
 
 ## Products in scope
@@ -74,10 +72,10 @@ Last updated: [DATE]
 - Income range and life stage:
 - Tone target: [from tone-matrix.md]
 
-## Geography and regulators
+## Geography and review steps
 - Jurisdictions:
-- State-level review obligations:
-- Open or recent regulatory issues:
+- State-level review steps in sign-off:
+- Sensitivities or watch-outs:
 
 ## Growth focus
 - Top growth lever this quarter:
@@ -85,7 +83,7 @@ Last updated: [DATE]
 - Current campaigns in flight:
 
 ## Review pipeline
-- Internal compliance:
+- Internal team review:
 - Partner bank marketing review:
 - External counsel:
 - Sign-off cadence:

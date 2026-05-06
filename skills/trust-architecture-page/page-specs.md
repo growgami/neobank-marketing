@@ -56,7 +56,7 @@ Required content:
 - Report fraud: phone, in-app, web form. All three.
 - Common scam education: Zelle scams, romance scams, IRS impersonation, fake tech support, "your account is locked" texts. One paragraph each, plain English.
 - Liability policy: what we cover, what we do not, under what timelines.
-- Dispute timeline: Reg E-mandated specifics. 10 business days for provisional credit on most disputes, extended to 45 days for new accounts and POS or foreign transactions.
+- Dispute timeline: the standard pattern most US neobanks publish is 10 business days for provisional credit on most disputes, extended to 45 days for new accounts and POS or foreign transactions. Match what your partner bank requires you to publish.
 - Examples of what the brand will never do (will never call asking for your password, will never send a text with a link to log in).
 
 This page is also a fraud-prevention surface. Customers who read it before falling for a scam are less likely to fall for it.
@@ -78,24 +78,24 @@ Reference: Monzo runs a public status page with full incident history. This is t
 URL convention: /disputes or /complaints
 
 Required content:
-- Timeline by dispute type, citing Reg E.
+- Timeline by dispute type. Match what your partner bank publishes.
 - Channels: in-app, web, phone, mail.
 - Escalation path: first-line support, manager escalation, formal complaint.
-- CFPB complaint disclosure: customers have the right to file with the CFPB at consumerfinance.gov/complaint.
+- External complaint channel: most US neobanks point users to consumerfinance.gov/complaint.
 - For state-licensed money transmitters: state regulator complaint paths.
 
-This page is required for several state money transmitter licenses and CFPB-supervised institutions. Build it once, link it from the footer.
+Build it once, link it from the footer.
 
-## 7. Audit and compliance page
+## 7. Audit and trust signals page
 
-URL convention: /compliance or /trust
+URL convention: /trust or /audits
 
 Required content:
 - SOC 2 Type II report status and most recent audit date (executive summary public, full report under NDA).
 - PCI DSS scope and most recent attestation.
 - Recent third-party security audits.
-- State money transmitter licenses: list each state with license number.
+- State money transmitter licenses if applicable: list each state with license number.
 - Federal registrations: FinCEN MSB if applicable.
-- Privacy framework: GLBA-compliant privacy policy link, data retention policy.
+- Privacy framework: privacy policy link, data retention policy.
 
-Customers do not read this page often. Reporters, regulators, and enterprise security reviewers do. Build it for them.
+Customers do not read this page often. Reporters, partner bank reviewers, and enterprise security reviewers do. Build it for them.

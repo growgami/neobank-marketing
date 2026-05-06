@@ -57,15 +57,15 @@ Detailed copy templates for each trigger live in `sequence-templates.md` in this
   - Credit-builder activation when DD stable for 60+ days
   - SpotMe / overdraft offer when balance dips low
 
-## TCPA compliance for SMS and push
+## SMS and push consent patterns
 
-Push notifications generally fall outside TCPA but enter scope when carrying marketing content to phone numbers obtained for transactional reasons. SMS is in scope. Both require:
+SMS marketing carries the strictest consent rules. Push notifications carrying marketing content also draw scrutiny. Standard pattern for both:
 
 - **Explicit opt-in** at signup, separate checkbox for marketing vs transactional
 - **Easy opt-out**: STOP keyword for SMS, in-app toggle for push, every marketing message must reference how to opt out
-- **Transactional vs marketing classification**: payday credit notification = transactional. Round-up activation prompt = marketing. Separate consent for each. Do not send marketing under transactional consent. The CFPB and FTC both look at this.
+- **Transactional vs marketing classification**: payday credit notification = transactional. Round-up activation prompt = marketing. Separate consent for each. Do not send marketing under transactional consent. This is one of the first things any reviewer will check.
 
-Consent record: keep timestamped record of opt-in source, channel, and version of consent language for 4+ years.
+Consent record: keep timestamped record of opt-in source, channel, and version of consent language. Standard retention is 4+ years.
 
 ## Frequency caps
 
