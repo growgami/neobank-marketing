@@ -1,6 +1,6 @@
 ---
 name: trust-architecture-page
-description: Trust surface system for B2C neobanks. Auto-triggers when designing or auditing security, how-we-make-money, partner bank disclosure, fraud center, status, dispute, or compliance pages. Treats the whole trust surface as one designed system, not a legal afterthought.
+description: Trust surface system for B2C neobanks. Auditing OR drafting. Auto-triggers when designing, auditing, or writing security, how-we-make-money, partner bank disclosure, fraud center, status, dispute, or trust pages. Treats the whole trust surface as one designed system, not a legal afterthought. Outputs shippable page copy with placeholders for bank-specific facts.
 argument-hint: "[brand, partner bank(s), current trust pages or audit target]"
 user-invocable: true
 disable-model-invocation: false
@@ -19,7 +19,7 @@ Two reference moves:
 - **Mercury post-Synapse, mid-2024**: explicitly named Column Bank and Lead Bank as direct partners on a transparent disclosure page. Strategy, not afterthought. Customers shared screenshots of the page on Twitter as a reason to switch.
 - **Monzo (UK)**: "How we make money" page has been the foundation of brand trust for years. Plain English, breaks down interchange, net interest margin, paid plans. Customers cite it when asked why they trust Monzo more than other challenger banks.
 
-Vague reassurance theater ("we take security seriously") underperforms specific disclosure ("256-bit encryption, biometric login, $250K FDIC pass-through via Lead Bank, FDIC certificate #58233"). Specificity converts. Vagueness signals you have something to hide.
+Vague reassurance theater ("we take security seriously") underperforms specific disclosure ("256-bit encryption, biometric login, $250K FDIC pass-through via [Partner Bank], FDIC certificate #[CERT NO]"). Specificity converts. Vagueness signals you have something to hide.
 
 ## The 7 pages every B2C neobank needs
 
@@ -46,7 +46,7 @@ Every page on the site should footer-link:
 - Privacy policy
 - Terms of service
 - Status (link to subdomain)
-- Compliance / audits
+- Trust signals / audits
 - Disputes and complaints
 
 ### Homepage trust strip
@@ -80,7 +80,11 @@ Kill on sight:
 - **Buried disclosures**: partner bank name only in the footer fine print. Move it inline.
 - **Single-paragraph "trust" page**: signals nothing. Customers and reviewers want specifics.
 
-## Output format
+## Two output modes
+
+This skill has two output modes. Pick based on what the user asked for.
+
+### Mode 1: Audit (when an existing site is in scope)
 
 ```
 TRUST ARCHITECTURE AUDIT: [brand] | [date]
@@ -92,7 +96,7 @@ PAGE INVENTORY (existing)
   Fraud center: [...]
   Status: [...]
   Disputes: [...]
-  Audit / compliance: [...]
+  Audit / trust signals: [...]
 
 GAP MAP
   Critical (review-blocker): [...]
@@ -114,6 +118,43 @@ PRIORITY ORDER
   1. ...
   2. ...
 ```
+
+### Mode 2: Draft (when starting from scratch or rewriting from blank)
+
+This is the mode that produces shippable copy. Use it when the user does not yet have one of the 7 pages, or asks for a rewrite. Pull from `page-specs.md` for what each page needs to cover. Apply the bank's tone archetype from `neobank-context` and `tone-matrix.md`.
+
+Output every page in this format. Do not stop at the spec. Write the actual copy.
+
+```
+PAGE: [Security | How we make money | Partner bank disclosure | Fraud center | Status | Disputes | Audit / trust signals]
+URL: /[path]
+
+[H1 headline — under 8 words, no slop]
+
+[Subhead — one sentence, specific, no fluff]
+
+## [Section heading 1]
+
+[Body copy — plain English, specific facts, real numbers. Use [PLACEHOLDER] for anything the bank profile does not specify.]
+
+## [Section heading 2]
+
+[Body copy with disclosure pattern inline where required. Example: "Banking services provided by [Partner Bank], Member FDIC, Certificate #[CERT NO]."]
+
+## [As many sections as the page-specs file requires for this page]
+
+[Body copy.]
+
+[Footer disclosure block, verbatim from the bank's standard disclosure line.]
+```
+
+Then loop through every page the user asked for, or all 7 if they asked for the full set. Every page must:
+
+- Lead with a specific, plain headline. No "Banking, reimagined."
+- Use real numbers and specific certifications wherever the profile has them
+- Use `[PLACEHOLDER]` markers for anything the profile does not specify (FDIC certificate number, exact dispute SLA, etc.) so the user knows what to fill in
+- Include the partner bank disclosure block at minimum once per page
+- End with a list of what the user still needs to confirm before publishing
 
 ## Disclaimer
 

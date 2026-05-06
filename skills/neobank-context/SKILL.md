@@ -22,9 +22,38 @@ Run this once when onboarding a new bank to the pack. Re-run it whenever a major
 
 ## How to run this skill
 
-Conduct a structured interview using the script in `interview-script.md` if available, or use the 14 questions below. Ask them in order. Do not skip. If the user does not know the answer, mark it as "unknown" and flag it as a follow-up.
+Two paths. Pick by how much the user already has documented.
 
-After the interview, write the profile to `.claude/context/neobank-profile.md` (project-level) or `~/.claude/context/neobank-profile.md` (user-level). Use the output template at the bottom of this file.
+### Path A: Quickstart brief (3 minutes, recommended for first run)
+
+Ask for a 5-line brief. This is the default for any user who is in a hurry, building a brand new neobank, or a pre-Series A founder who does not have full infrastructure yet.
+
+```
+1. Bank name (and one-sentence pitch)
+2. Partner bank, if known. If pre-launch and not selected yet, write "TBD"
+3. Audience in one sentence (who is this for and what do they care about)
+4. Tone archetype (mass / premium / cultural / community-transparent / niche affinity — see reference/tone-matrix.md)
+5. Top growth lever right now (acquisition / KYC pass rate / first-deposit / direct-deposit routing / retention / referral / other)
+```
+
+Take the brief, fill in the rest of the profile template with sensible defaults, and flag every default with `[needs confirmation]`. Examples of sensible defaults:
+
+- Jurisdictions: US-only unless the brief implies otherwise
+- ICP archetype: derive from line 3
+- Review pipeline: assume "internal team only — no partner bank review yet" if the brief says TBD
+- Disclosure line: leave as `[needs confirmation — get from partner bank]`
+
+This is the path most users will take. It produces a usable profile in 3 minutes that every other skill can read.
+
+### Path B: Full interview (15 minutes, for established neobanks)
+
+Use the 14 questions below. Ask them in order. Do not skip. If the user does not know the answer, mark it as "unknown" and flag it as a follow-up.
+
+This path is right when the user is at a Series A+ bank with a real review pipeline, partner bank, and existing copy. The fuller profile lets every downstream skill calibrate tightly.
+
+### Where to write the profile
+
+After either path, write the profile to `.claude/context/neobank-profile.md` (project-level) or `~/.claude/context/neobank-profile.md` (user-level). Use the output template at the bottom of this file.
 
 ## The 14 interview questions
 

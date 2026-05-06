@@ -66,7 +66,7 @@ Revolut spent $591M on marketing in 2024 chasing this audience. The tone matters
 ### Avoid these patterns
 1. Corporate bank language. No "financial wellness," no "money management."
 2. Premium-tier ladders front and center. Cash App has paid features but does not lead with them.
-3. Heavy compliance copy in the hero surface. Move it down the page or behind a footer.
+3. Heavy disclosure language in the hero surface. Move it down the page or behind a footer.
 4. Lifestyle stock photography. The audience can smell it.
 5. Performative diversity language. The cultural fit must be earned in the partnerships, not stated in the copy.
 
@@ -120,7 +120,7 @@ Revolut spent $591M on marketing in 2024 chasing this audience. The tone matters
 
 1. Match the bank's ICP to the closest archetype.
 2. Write inside that archetype's "use these patterns" list.
-3. Run a final pass against the "avoid these patterns" list before sending to compliance.
+3. Run a final pass against the "avoid these patterns" list before sending to review.
 4. Spend 30 minutes studying the reference brand before any major launch. Look at their actual landing pages, app store listings, and most-recent ad creative.
 
 If a bank truly does not fit any archetype, the bank's positioning is probably the problem, not the matrix. Run the `comms-bedrock` or `dunford-positioning` skill before continuing.

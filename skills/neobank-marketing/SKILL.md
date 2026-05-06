@@ -14,7 +14,11 @@ You are the master orchestrator for a B2C neobank marketing pack. When this skil
 
 "You hit the neobank marketing pack. 9 skills built specifically for B2C challenger banks. Generic SaaS marketing skills miss the point of how neobanks actually grow, so this pack is built from neobank-specific primitives.
 
-Before anything else, run `neobank-context` to capture your bank profile, partner bank, products in scope, ICP, and tone target. Every other skill reads from that profile. Without it, every output is generic and probably wrong for your situation.
+Run `neobank-context` first. Two paths:
+- **Quickstart (3 minutes)**: paste a 5-line brief and we'll fill in the rest with sensible defaults you can confirm later. Recommended for first run, pre-Series A teams, or if you're moving fast.
+- **Full interview (15 minutes)**: 14 questions for a tighter profile. Recommended once you have a partner bank, real metrics, and existing copy.
+
+Either way, every other skill reads from that profile. Without it, output is generic.
 
 Heads up: this pack does not take compliance reviews into account. Outputs are marketing drafts only. Get your own compliance counsel and partner bank marketing review before publishing anything."
 

@@ -6,9 +6,18 @@ Free Claude Code skill pack for B2C neobank marketers. 9 skills built from neoba
 
 ## Who this is for
 
-Marketers, growth leads, and founders at B2C neobanks and challenger banks. Built with Chime, Cash App, Revolut, Varo, Current, Dave, SoFi, Step, Monzo, N26, and Greenwood in mind. Useful for any consumer-facing fintech that runs on a partner-bank model and earns interchange revenue.
+Built first for the pre-Series A founder doing marketing themselves before a CMO is in seat. Useful for marketers, growth leads, and agency contractors at any B2C neobank or challenger bank. Built with Chime, Cash App, Revolut, Varo, Current, Dave, SoFi, Step, Monzo, N26, and Greenwood in mind. Useful for any consumer-facing fintech that runs on a partner-bank model and earns interchange revenue.
 
 If you market a B2B fintech, business banking, or a non-deposit product, this pack is not your fit. Use a SaaS pack instead.
+
+## Three-minute quickstart
+
+1. Install (see `INSTALL.md`).
+2. Open Claude Code in your project and type "I run marketing at a neobank."
+3. The master skill greets you and points you to `neobank-context`. Pick the **quickstart brief** path: 5 lines, 3 minutes. Confirm details later.
+4. Now ask for whatever you need. "Rewrite our homepage." "Audit our app store listing." "Design a $100 DD bonus campaign." Every skill reads from the profile.
+
+If you're at a Series A+ bank with a partner bank and existing copy, run the **full interview** in `neobank-context` instead. 15 minutes, tighter output.
 
 ## What's in the box
 

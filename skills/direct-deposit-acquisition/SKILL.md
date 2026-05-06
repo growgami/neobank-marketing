@@ -133,7 +133,7 @@ Success metrics:
 - First qualifying DD within 45 days
 - 90-day DD retention
 
-Compliance review owner:
+Review owner before launch:
 ```
 
 ## Disclaimer

@@ -132,11 +132,13 @@ If the line cannot survive the test, rewrite or kill.
 
 ## Output format
 
+Always end with shippable copy in DRAFT v1, not just the audit. The audit blocks are the work-in-public; the draft is the artifact.
+
 ```
 COPY BRIEF: [asset name] | [channel] | [date]
 
 AUDIENCE
-  Segment: [mass / cultural / premium / niche]
+  Segment: [mass / cultural / premium / niche / community-transparent]
   Tone target: [archetype from tone-matrix.md]
 
 CLAIMS (one row each)
@@ -153,7 +155,7 @@ DISCLOSURE LIST
   Present: [list]
   Missing: [list]
 
-DRAFT v1
+DRAFT v1 (shippable copy)
   Hero: "..."
   Subhead: "..."
   Benefit 1: "..."
@@ -162,10 +164,12 @@ DRAFT v1
   CTA: "..."
   Footnotes: [...]
 
-REGULATOR SCREENSHOT TEST
+STRICT-EDITOR SCREENSHOT TEST
   Lines that pass: [...]
-  Lines to rewrite: [...]
+  Lines to rewrite: [rewrite each one inline below the list, do not just flag it]
 ```
+
+If the user asked for ad creative, push, email, or any specific format, deliver shippable copy in that format. Do not stop at the audit blocks above and ask the user to write it themselves.
 
 ## Disclaimer
 

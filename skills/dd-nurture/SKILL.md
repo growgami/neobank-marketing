@@ -116,7 +116,7 @@ Send rules:
 - Suppression rules:
 - Time-of-day:
 
-Compliance review owner:
+Review owner before launch:
 ```
 
 See `sequence-templates.md` for the full 30-day sequence with copy.

@@ -17,7 +17,7 @@ Finance category is a knife fight. Chime, Dave, Current, Varo, Cash App, SoFi, R
 1. Apple's App Store financial-app review is materially stricter than the rest of the store. Submissions get rejected for unsubstantiated APY claims, vague "FDIC insured" wording, mock screenshots, or feature mismatches.
 2. Google Play's Designated Countries policy for financial services requires registration in many markets and the Personal Loans / Banking taxonomy has its own disclosure rules.
 
-ASO for a neobank is half keyword work, half compliance.
+ASO for a neobank is half keyword work, half disclosure work.
 
 ## Title and subtitle keyword strategy
 
@@ -112,21 +112,21 @@ Google Play: similar flagging via Play Console. Reviews tagged as policy-violati
 
 ## Apple and Google financial-app policy gotchas
 
-- Claim substantiation: every benefit, fee, APY, or speed claim in the description must be substantiated. Apple reviewers will check.
+- Claim substantiation: every benefit, fee, APY, or speed claim in the description needs to be substantiated. Apple reviewers will check.
 - Screenshot accuracy: cannot show a feature that does not exist in the shipping app. Cannot show APY higher than offered. Cannot show fee-free ATMs without the network reference.
 - "Free": Apple has specific rules on the word "free." Cannot say "100% free" if any fee exists. Use specific phrasing: "No monthly fees" or "No overdraft fees."
 - No misleading screenshots: old UI, beta features, or aspirational mockups all trigger rejection.
 - Google Play Designated Countries: financial services apps may need to register and provide additional documentation in markets including India, Brazil, Mexico, EU.
-- Apple requires partner bank disclosure clearly stated in the app and listing. Hiding "Banking services provided by [Bank]" triggers rejection.
+- Apple looks for a partner bank disclosure clearly stated in the app and listing. Hiding "Banking services provided by [Bank]" tends to trigger rejection.
 
 ## Localization
 
 US-only is the default for most US neobanks. Do not localize beyond what you actually serve.
 
 For neobanks operating across markets (Revolut, N26, Wise):
-- UK: separate listing, FCA disclosures required, "FSCS protected" instead of "FDIC insured"
+- UK: separate listing, FCA disclosures, "FSCS protected" instead of "FDIC insured"
 - EU: GDPR + PSD2 disclosures, country-by-country if benefits differ
-- LATAM: ES-MX, PT-BR, regional compliance varies sharply
+- LATAM: ES-MX, PT-BR, regional review steps vary sharply
 - Canada: CDIC instead of FDIC, English + French listings
 
 Decision rule: localize where you have a charter or partner bank, and where the reviewer will see consistent feature parity. Do not localize aspirationally.
@@ -155,7 +155,7 @@ Keywords:
 Screenshots:
 - Order issue:
 - Trust hierarchy match: [yes/no]
-- Compliance issues:
+- Disclosure gaps (e.g. partner bank not visible in screenshots 1-3):
 - Recommended order:
 
 Description:
@@ -174,14 +174,14 @@ Review management:
 - Response cadence gap:
 - Suspected fake-review activity:
 
-Compliance issues found:
+Disclosure / claim issues found:
 
 Priority fix list:
 1.
 2.
 3.
 
-Compliance review owner:
+Review owner before submission:
 ```
 
 ## Disclaimer

@@ -2,7 +2,7 @@
 
 Copy templates referenced by `SKILL.md`. Pair with the trigger map and channel split rules in the parent skill file.
 
-All copy is templated. Every claim, dollar amount, speed reference, and feature mention must be substantiated and run past compliance.
+All copy is templated. Every claim, dollar amount, speed reference, and feature mention needs to be substantiated against your own data and routed through your standard review pipeline before sending. This file does not take compliance reviews into account.
 
 ---
 
@@ -150,7 +150,7 @@ Email body:
 >
 > [CTA: Open high-yield savings]
 >
-> APY accurate as of [date]. Terms apply. [Reg DD disclosure block]
+> APY accurate as of [date]. Terms apply. [Insert your standard APY disclosure block]
 
 ---
 
@@ -213,4 +213,4 @@ Body:
 - Time-of-day: payday pushes within 5 min of credit. Marketing emails 9-11 AM local. Sunday summary 9 AM local. Never push between 9 PM and 8 AM local.
 - Suppression: do not send marketing to users in active dispute, KYC review, or fraud lockout.
 - Suppression: opt-out honored within 24 hours, opt-out signal propagates across all channels (suppress email if user opts out of push for the same campaign).
-- A/B test scope: subject lines, push first sentence, in-app card headlines. Do not A/B test disclosure blocks or compliance language.
+- A/B test scope: subject lines, push first sentence, in-app card headlines. Do not A/B test disclosure blocks or required language.

@@ -46,7 +46,7 @@ Required content:
 - What happens if the brand fails (it is the partner bank that holds your money).
 - What happens if the partner bank fails (FDIC standard process).
 
-Post-Synapse the bar is explicit naming. "Banking services provided by our partner bank" without a name fails the test. The named pattern: "Banking services provided by Lead Bank, Member FDIC, Certificate #58233."
+Post-Synapse the bar is explicit naming. "Banking services provided by our partner bank" without a name fails the test. The named pattern: "Banking services provided by [Partner Bank], Member FDIC, Certificate #[CERT NO]."
 
 ## 4. Fraud center
 

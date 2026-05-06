@@ -92,7 +92,7 @@ Bake "material connection" disclosure into every pre-filled share — every soci
 Why this matters:
 - A referral bonus is a material connection, and the brand is on the hook for the disclosure even when a customer is the one sharing the link
 - Pre-filled disclosure gets through partner bank marketing review. Freestyle creator copy doesn't.
-- Without it, your share text is the kind of thing that gets screenshotted into an enforcement complaint
+- Without it, your share text is the kind of thing that gets screenshotted into a complaint email and lands on your CMO's desk
 
 Build this into the share text and lock it. Do not allow editing of the disclosure line.
 
@@ -152,7 +152,7 @@ Success metrics:
 - 90-day retention of referred users vs paid-channel users
 - DD activation rate of referred users
 
-Compliance review owner:
+Review owner before launch:
 ```
 
 ## Disclaimer

@@ -76,7 +76,7 @@ Mandatory: never auto-reject. Required cases:
 - Trans users with chosen names where ID has not yet been updated.
 - Users with hyphenated, compound, or non-Latin names that vendor parsers mishandle.
 
-Required flow: human review path with target SLA (24 hours), email confirmation, and a status page the user can check. Do not silently fail. Auto-rejection of these cohorts is both an ECOA exposure (disparate impact on protected class) and a brand exposure (these users post about it).
+Required flow: human review path with target SLA (24 hours), email confirmation, and a status page the user can check. Do not silently fail. Auto-rejection of these cohorts is both a disparate-impact exposure on protected groups and a brand exposure (these users post about it).
 
 ### SSN-only vs full-document path
 
