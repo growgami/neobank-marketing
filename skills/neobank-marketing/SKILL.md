@@ -66,6 +66,8 @@ Neobank marketing has its own physics. The unit economics rest on interchange. T
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: UDAAP, Reg DD (Truth in Savings), Reg E (electronic transfers), Reg Z (truth in lending where lending products are in scope), FTC endorsement guides, FDIC pass-through disclosure rules, and any state-level marketing review your jurisdiction requires. This pack does not constitute legal advice and Growgami is not liable for outputs.
 
 If your compliance team and partner bank are not in your marketing review pipeline, fix that before you use any output from this pack.

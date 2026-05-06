@@ -67,4 +67,6 @@ Recommendations:
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: 12 CFR Part 330 (FDIC pass-through insurance), FDIC Part 328 (deposit insurance representation and advertising), 12 USC 1828(a). This pack does not constitute legal advice and Growgami is not liable for outputs.

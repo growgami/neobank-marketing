@@ -96,6 +96,8 @@ Last updated: [DATE]
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: any disclosure language captured in the profile is current and approved by your partner bank, FDIC pass-through wording matches the latest version your partner bank requires, and any regulatory issues noted are accurately characterized. This pack does not constitute legal advice and Growgami is not liable for outputs.
 
 The profile itself is internal. It is not customer-facing copy. But every skill that reads from it produces customer-facing drafts, so the profile needs to be accurate.

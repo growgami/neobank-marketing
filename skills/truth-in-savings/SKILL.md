@@ -122,4 +122,6 @@ VERDICT: SHIP / FIX / KILL
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: Truth in Savings Act 12 USC 4301 et seq., Regulation DD 12 CFR Part 1030. This pack does not constitute legal advice and Growgami is not liable for outputs.

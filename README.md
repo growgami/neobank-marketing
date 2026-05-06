@@ -1,6 +1,8 @@
 # Neobank Marketing Skill Pack
 
-Free Claude Code skill pack for B2C neobank marketers. 13 skills built from neobank-specific primitives, not recycled SaaS playbooks. Compliance-aware by default, funnel-stage organized, ready to drop into any project.
+Free Claude Code skill pack for B2C neobank marketers. 13 skills built from neobank-specific primitives, not recycled SaaS playbooks. Compliance-gated drafts, human review required, funnel-stage organized, ready to drop into any project.
+
+> These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only. See [Human review is mandatory](#human-review-is-mandatory) before shipping anything.
 
 ## Who this is for
 
@@ -38,7 +40,7 @@ This pack derives every skill from one funnel:
 
 Awareness, Sign-up (KYC), First deposit, Direct deposit routed, Card-as-primary, Revenue feature engagement, Referral.
 
-Compliance gates sit in front of every output. Tone calibration sits over every word.
+Compliance gates sit in front of every output as drafts that require human review. Tone calibration sits over every word.
 
 ## Install
 
@@ -52,6 +54,8 @@ cp -r neobank-marketing/skills/* ~/.claude/skills/
 Skills auto-trigger on neobank, fintech, challenger bank, and brand-name keywords. Start by typing something like "I run marketing at a neobank" and let the master skill greet you.
 
 ## Human review is mandatory
+
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
 
 Every output from this pack is a draft. Not a legal artifact. Not advice.
 

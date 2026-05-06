@@ -111,4 +111,6 @@ VERDICT: SHIP / FIX / KILL
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces drafts, not legal artifacts. Every output must be reviewed by qualified compliance counsel and your partner bank's marketing review team before publishing. Specifically check: FTC Endorsement Guides 16 CFR Part 255, FTC Fake Reviews Rule (effective October 21 2024), FINRA Rule 2210, SEC Marketing Rule 206(4)-1 if RIA-adjacent. This pack does not constitute legal advice and Growgami is not liable for outputs.

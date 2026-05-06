@@ -123,6 +123,8 @@ See `sequence-templates.md` for the full 30-day sequence with copy.
 
 ## Compliance and human review
 
+These skills have not been reviewed by banking compliance counsel. Treat all output as a starting point only.
+
 This skill produces lifecycle marketing copy and trigger logic. It does not produce legally sufficient disclosures. Every output of this skill must be reviewed by qualified counsel and the compliance team before going live.
 
 Regulations that apply:
